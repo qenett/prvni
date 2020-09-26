@@ -1,0 +1,74 @@
+
+Git je nástroj, GitHub je online služba
+
+
+Visual Studio Code: napíšu git
+	- dlouhý text vyjede
+
+dir - vypíše mi obsah složky, ve které aktuálně jsem
+
+POHYB MEZI SLOŽKAMI:
+cd - change directory - změní složku
+cd .. vrátím se zpátky
+mkdir - vytvořit složku
+
+PŘÍKAZY GITU: 
+git help (název) příkazu - zobrazí nápovědu
+
+Identifikace: aby se na GITU vědělo, kdo co nahrál:
+Než začneme gitovat, musíme v gitu nastavit naše jméno a emailovou adresu!! 
+git config --global user.name "Katerina S"
+git config --global user.email kllatenka.svubova@gmail.com
+KONTROLA: git config --list
+	několikrát potom enter a nakonec vyskočím  q !!!!
+
+Klonování repozitáře: 
+git clone https:// ...
+stáhnu si složku - složba má skrytý adresáš .git - který obsahuje informace o změnách a historii a tak
+
+COMMITY - bod v čase, kdy si má git zapamatovat aktuální verzi souborů
+	je důležité popsat, co vlastně jsem tam udělala za změnu
+	je potřeba ukládat po malých změnách
+
+git show - zobrazí se konkrétní commit - stačí zadat prvních šest znaků identifikátoru
+	opustit q
+
+git log - vypíše všechny změny
+	: mám ještě více záznamů, chceš je vidě? šipkou dolůů se pohybuju, mezerníkem se posunu o celou stránku
+
+git status - Řekne nám, na jaké jsme aktuálně větvi, které soubory v repozitáři jsou změněné, které jsou připravené na commit, případně které soubory git zatím ještě neverzuje
+
+git diff - ukáže změny od předchozího commitu, které ale zatím nejsou "zazálohované" v dalším commitu
+
+git commit -a -m "popis commitu, co se vlastně udělalo"
+	-a - říkám mu, že má sledovat všechny soubory v dané složce - git add všechno
+
+git add - přidám upravený soubor do staging area, odkkud můžu udělat commit. Můžu tam přidat všechny -a nebo jen některé , tkeré jsme zrovna upravila
+
+
+git clone https:// ... naklonuje z nějaké stránky, třeba z github
+	git hub: zelené Code -> clone https://
+	git clone https://github.com/TvojePřezdívka/dapraha-git novy-nazev-u-me-v-pocitaci
+
+
+
+github.com
+	NEW repozitar - jmeno - popis 
+	DULEZITE !!! přidej Add a README file
+	add .gitignore - ignoruj nějaké složky co specifikuju
+	Create
+
+
+
+
+
+
+
+
+Zpětná vazba: obrázek - schéma - byl skvělý. Jak jste se bavili jestli ho nedát pryč, tak si myslím že určitě ne. I delší čas strávený diskuzí nad ním podle mě stál za to a lépe jsem pochopila, jak to vlastně funguje, odkud se co commituje.
+
+
+
+
+
+
